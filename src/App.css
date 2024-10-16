@@ -74,3 +74,7 @@ p {
 .hover {
     cursor: pointer;
 }
+
+.bor {
+    border: 1px solid red;
+}

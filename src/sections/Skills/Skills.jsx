@@ -1,7 +1,6 @@
 import styles from './SkillsStyles.module.css'
 import checkMarkIconDark from '../../assets/checkmark-dark.svg';
 import checkMarkIconLight from '../../assets/checkmark-light.svg';
-// import SkillList from '../../common/SkillList'
 import { useTheme } from '../../common/ThemeContext'
 
 const Skills = () => {
@@ -13,26 +12,68 @@ const Skills = () => {
 
 
             <div className={styles.skillIconContainer}>
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=js&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=ts&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=python&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=nodejs&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=express&theme=${theme}`} alt="" />
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=js&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>JavaScript</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=ts&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>TypeScript</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=python&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>Python</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=nodejs&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>Node.js</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=express&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>Express.js</span>
+                </div>
             </div>
             <hr />
             <div className={styles.skillIconContainer}>
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=react&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=mui&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=css&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=tailwind&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=bootstrap&theme=${theme}`} alt="" />
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=react&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>React</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=mui&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>Material UI</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=css&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>CSS</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=tailwind&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>Tailwind CSS</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=bootstrap&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>Bootstrap</span>
+                </div>
             </div>
             <hr />
             <div className={styles.skillIconContainer}>
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=mongodb&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=mysql&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=sqlite&theme=${theme}`} alt="" />
-                <img className='skillIcon' src={`https://skillicons.dev/icons?i=redux&theme=${theme}`} alt="" />
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=mongodb&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>MongoDB</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=mysql&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>MySql</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=sqlite&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>Sqlite</span>
+                </div>
+                <div className={styles.skillBox}>
+                    <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=redux&theme=${theme}`} alt="" />
+                    <span className={styles.skillName}>Redux</span>
+                </div>
             </div>
         </section>
     )

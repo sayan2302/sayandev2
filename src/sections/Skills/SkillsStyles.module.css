@@ -50,8 +50,8 @@ hr {
     margin: 30px auto;
 }
 
-/* @media (width>=800px) {
-
+@media (width>=800px) {
+    /* 
     .skillList {
         max-width: fit-content;
         gap: 30px;
@@ -59,9 +59,9 @@ hr {
         p {
             font-size: 20px;
         }
-    }
+    } */
 
     hr {
         width: 300px;
     }
-} */
+}

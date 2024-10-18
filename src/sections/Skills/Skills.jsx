@@ -1,31 +1,36 @@
 import styles from './SkillsStyles.module.css'
-import checkmark from '../../assets/checkmark-dark.svg'
+import checkMarkIconDark from '../../assets/checkmark-dark.svg';
+import checkMarkIconLight from '../../assets/checkmark-light.svg';
 import SkillList from '../../common/SkillList'
+import { useTheme } from '../../common/ThemeContext'
 
 const Skills = () => {
+    const { theme } = useTheme();
+    const checkMarkIcon = theme === 'light' ? checkMarkIconLight : checkMarkIconDark;
     return (
         <section id='skills' className={styles.container}>
             <h1 className='sectionTitle'>Skills</h1>
-            <div className={styles.skillList}>
-                <SkillList src={checkmark} skill="HTML" />
-                <SkillList src={checkmark} skill="CSS" />
-                <SkillList src={checkmark} skill="JavaScript" />
-                <SkillList src={checkmark} skill="Python" />
+
+
+            <div className={styles.skillIconContainer}>
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=java&theme=light" alt="" />
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=kotlin&theme=light" alt="" />
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=react&theme=light" alt="" />
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="" />
             </div>
             <hr />
-            <div className={styles.skillList}>
-                <SkillList src={checkmark} skill="React" />
-                <SkillList src={checkmark} skill="Angular" />
-                <SkillList src={checkmark} skill="Vue" />
-                <SkillList src={checkmark} skill="Tailwind CSS" />
+            <div className={styles.skillIconContainer}>
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=java&theme=light" alt="" />
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=kotlin&theme=light" alt="" />
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=figma&theme=light" alt="" />
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="" />
             </div>
             <hr />
-            <div className={styles.skillList}>
-                <SkillList src={checkmark} skill="Redux" />
-                <SkillList src={checkmark} skill="Git" />
-                <SkillList src={checkmark} skill="Jest" />
-                <SkillList src={checkmark} skill="Webpack" />
-                <SkillList src={checkmark} skill="Bootstrap" />
+            <div className={styles.skillIconContainer}>
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=java&theme=light" alt="" />
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=kotlin&theme=light" alt="" />
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=figma&theme=light" alt="" />
+                <img className='skillIcon' src="https://skillicons.dev/icons?i=nodejs&theme=light" alt="" />
             </div>
         </section>
     )

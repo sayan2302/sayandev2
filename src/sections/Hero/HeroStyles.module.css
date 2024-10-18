@@ -77,8 +77,34 @@
 
 .socialIconsLight {
     color: #222;
+    font-size: 30px;
 }
 
 .socialIconsDark {
     color: #fff;
+    font-size: 30px;
+}
+
+
+@media (width>=800px) {
+    .container {
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+
+        .hero {
+            max-width: 350px;
+            width: 350px;
+        }
+    }
+}
+
+
+@media (width>=800px) {
+    .container {
+        .hero {
+            max-width: 400px;
+            width: 400px;
+        }
+    }
 }

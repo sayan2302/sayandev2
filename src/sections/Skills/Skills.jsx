@@ -11,11 +11,11 @@ const Skills = () => {
             <div className={styles.skillIconContainer}>
                 <div className={styles.skillBox}>
                     <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=js&theme=${theme}`} alt="" />
-                    <span className={styles.skillName}>JavaScript</span>
+                    <span className={styles.skillName}>JS</span>
                 </div>
                 <div className={styles.skillBox}>
                     <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=ts&theme=${theme}`} alt="" />
-                    <span className={styles.skillName}>TypeScript</span>
+                    <span className={styles.skillName}>TS</span>
                 </div>
                 <div className={styles.skillBox}>
                     <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=python&theme=${theme}`} alt="" />
@@ -23,11 +23,11 @@ const Skills = () => {
                 </div>
                 <div className={styles.skillBox}>
                     <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=nodejs&theme=${theme}`} alt="" />
-                    <span className={styles.skillName}>Node.js</span>
+                    <span className={styles.skillName}>Node</span>
                 </div>
                 <div className={styles.skillBox}>
                     <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=express&theme=${theme}`} alt="" />
-                    <span className={styles.skillName}>Express.js</span>
+                    <span className={styles.skillName}>Express</span>
                 </div>
             </div>
             <hr />
@@ -38,7 +38,7 @@ const Skills = () => {
                 </div>
                 <div className={styles.skillBox}>
                     <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=mui&theme=${theme}`} alt="" />
-                    <span className={styles.skillName}>Material UI</span>
+                    <span className={styles.skillName}>MUI</span>
                 </div>
                 <div className={styles.skillBox}>
                     <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=css&theme=${theme}`} alt="" />
@@ -46,7 +46,7 @@ const Skills = () => {
                 </div>
                 <div className={styles.skillBox}>
                     <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=tailwind&theme=${theme}`} alt="" />
-                    <span className={styles.skillName}>Tailwind CSS</span>
+                    <span className={styles.skillName}>Tailwind</span>
                 </div>
                 <div className={styles.skillBox}>
                     <img className={styles.skillIcon} src={`https://skillicons.dev/icons?i=bootstrap&theme=${theme}`} alt="" />

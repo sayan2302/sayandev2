@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+
+
+
+    .blogsContainer {
+        /* border: 1px solid red; */
+        margin-left: 50px;
+        display: flex;
+        column-gap: 20px;
+        max-width: 270px;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+    }
+
+    img {
+        scroll-snap-align: start;
+        max-width: 230px;
+        max-height: 170px;
+        align-self: center;
+        background-color: var(--project-cerd-bg);
+        border-radius: 20px;
+    }
+
+    a {
+        /* border: 1px solid red; */
+        width: fit-content;
+        text-decoration: none;
+        color: #222;
+        transition: transform 200ms ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
+    }
+
+}

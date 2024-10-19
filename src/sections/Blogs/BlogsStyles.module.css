@@ -9,16 +9,19 @@
 
     .blogsContainer {
         /* border: 1px solid red; */
-        margin-left: 50px;
+        padding: 0 30px;
         display: flex;
-        column-gap: 20px;
-        max-width: 270px;
+        column-gap: 15px;
+        max-width: 250px;
         overflow-x: scroll;
         scroll-snap-type: x mandatory;
+        scroll-padding: 40px;
     }
 
     img {
         scroll-snap-align: start;
+        scroll-snap-stop: always;
+
         max-width: 230px;
         max-height: 170px;
         align-self: center;
@@ -32,10 +35,6 @@
         text-decoration: none;
         color: #222;
         transition: transform 200ms ease-in-out;
-
-        &:hover {
-            transform: scale(1.05);
-        }
     }
 
 }

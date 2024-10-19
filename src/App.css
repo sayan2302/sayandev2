@@ -42,7 +42,7 @@ body {
 }
 
 html {
-    scroll-snap-type: y proximity;
+    scroll-snap-type: y mandatory;
 }
 
 section {
@@ -109,6 +109,17 @@ p {
 
 
 @media (width >=800px) {
+    html {
+        scroll-snap-type: y proximity;
+    }
+
+    section {
+        scroll-snap-align: start;
+        scroll-snap-stop: always;
+        scroll-margin-top: 50px;
+    }
+
+
     #root {
         gap: 100px;
     }

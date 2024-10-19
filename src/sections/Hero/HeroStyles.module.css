@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 20px;
     text-align: center;
     height: 100dvh;
@@ -17,8 +18,6 @@
         justify-content: center;
         align-items: center;
         font-size: 40px;
-
-
     }
 
     .a {
@@ -51,12 +50,14 @@
 
 .colorModeContainer {
     position: relative;
+    max-width: fit-content;
 }
 
 .colorMode {
     position: absolute;
-    right: 0;
-    width: 25px;
+    right: -5px;
+    top: -5px;
+    width: 20px;
 }
 
 .colorMode:hover {
@@ -90,18 +91,38 @@
     .container {
         flex-direction: row-reverse;
         align-items: center;
-        justify-content: space-evenly;
+        justify-content: center;
+        gap: 40px;
 
         .hero {
             max-width: 350px;
             width: 350px;
         }
+
+        .colorMode {
+            width: 25px;
+        }
     }
 }
 
 
-@media (width>=800px) {
+
+@media (width>=1200px) {
     .container {
+        gap: 120px;
+
+        .hero {
+            max-width: 400px;
+            width: 400px;
+        }
+    }
+}
+
+
+@media (width>=1800px) {
+    .container {
+        gap: 250px;
+
         .hero {
             max-width: 400px;
             width: 400px;

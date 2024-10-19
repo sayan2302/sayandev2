@@ -2,7 +2,7 @@ import React from 'react'
 
 const ProjectCard = ({ src, link, h3, p }) => {
     return (
-        <a href={link}>
+        <a href={link} target='_blank' rel="noreferrer">
             <img className='hover'
                 src={src}
                 alt={`${h3} logo`}

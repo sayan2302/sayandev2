@@ -34,18 +34,29 @@
 
 
 
+
 body {
     background-color: var(--background-color);
-    display: flex;
     justify-content: center;
     margin: 0 auto 60px;
 }
+
+html {
+    scroll-snap-type: y proximity;
+}
+
+section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    scroll-margin-top: 50px;
+}
+
+
 
 #root {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    /*  */
 }
 
 h1,

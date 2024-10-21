@@ -1,5 +1,11 @@
 export const blogList = [
     {
+        id: "4",
+        link: "https://medium.com/@sayanpramanick/lazy-loading-components-in-react-for-better-performance-54e54676a2f7",
+        image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*WoDIV8ckchETQxTG",
+        title: "Lazy Loading Components in React for Better Performance"
+    },
+    {
         id: "3",
         link: "https://medium.com/@sayanpramanick/understanding-the-differences-between-useref-and-usestate-62b16bfc80e3",
         image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*cR-O9lXi_sL2EwKT",

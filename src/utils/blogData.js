@@ -1,5 +1,11 @@
 export const blogList = [
     {
+        id: "5",
+        link: "https://medium.com/@sayanpramanick/react-suspense-for-code-splitting-7151dc6018fa",
+        image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*JdOpeAIcABztyI7WDAykEg.png",
+        title: "React Suspense for Code Splitting"
+    },
+    {
         id: "4",
         link: "https://medium.com/@sayanpramanick/lazy-loading-components-in-react-for-better-performance-54e54676a2f7",
         image: "https://miro.medium.com/v2/resize:fit:1400/format:webp/0*WoDIV8ckchETQxTG",

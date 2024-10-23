@@ -27,8 +27,8 @@
         scroll-snap-align: start;
         scroll-snap-stop: always;
 
-        max-width: 230px;
-        max-height: 170px;
+        width: 230px;
+        min-height: 155px;
         align-self: center;
         background-color: var(--project-cerd-bg);
         border-radius: 20px;
@@ -79,9 +79,9 @@
 
         img {
             scroll-snap-stop: always;
-
-            max-width: 280px;
-            max-height: 200px;
+            background-size: cover;
+            width: 350px;
+            min-height: 235px;
         }
 
         a:hover p {

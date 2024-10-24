@@ -3,6 +3,7 @@ import ProjectCard from '../../common/ProjectCard'
 import sortingVisualiser from '../../assets/visualizer.webp'
 import expenseTracker from '../../assets/expenseTracker.webp'
 import taskManager from '../../assets/taskManagement.webp'
+import qubrid from '../../assets/qubridAI.png'
 
 const Projects = () => {
     return (
@@ -10,10 +11,10 @@ const Projects = () => {
             <h1 className='sectionTitle'>Projects</h1>
             <div className={styles.projectsContainer}>
                 <ProjectCard
-                    src={sortingVisualiser}
-                    link="https://sayan-sortingvisualiser.netlify.app"
-                    h3="Sorting Visualizer"
-                    p="Educational App"
+                    src={qubrid}
+                    link="https://platform.qubrid.com/"
+                    h3="Qubrid AI"
+                    p="AI Soultions"
                 />
                 <ProjectCard
                     src={expenseTracker}
@@ -21,7 +22,12 @@ const Projects = () => {
                     h3="Expense Tracker"
                     p="Fianance Management App"
                 />
-
+                <ProjectCard
+                    src={sortingVisualiser}
+                    link="https://sayan-sortingvisualiser.netlify.app"
+                    h3="Sorting Visualizer"
+                    p="Educational App"
+                />
                 <ProjectCard
                     src={taskManager}
                     link="https://sayan-task-management-app.netlify.app/"

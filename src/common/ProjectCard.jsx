@@ -6,6 +6,7 @@ const ProjectCard = ({ src, link, h3, p }) => {
             <img className='hover'
                 src={src}
                 alt={`${h3} logo`}
+                // style={{ border: "1px solid #00000030" }}
             />
             <h3>{h3}</h3>
             <p>{p}</p>

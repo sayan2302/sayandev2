@@ -28,12 +28,13 @@ const Projects = () => {
                     h3="Sorting Visualizer"
                     p="Educational App"
                 />
-                <ProjectCard
+                {/* <ProjectCard
                     src={taskManager}
                     link="https://sayan-task-management-app.netlify.app/"
                     h3="Task Manager"
                     p="Task Management App"
                 />
+                */}
 
 
             </div>
